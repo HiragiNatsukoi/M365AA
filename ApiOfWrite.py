@@ -32,8 +32,8 @@ log_list=['']*app_count
 # app_delay: 是否开启账号之间的延时，默认0关闭
 ########################################
 config = {
-         'allstart': 0,
-         'rounds': 1,
+         'allstart': 1,
+         'rounds': 5,
          'rounds_delay': [0,0,5],
          'api_delay': [0,0,5],
          'app_delay': [0,0,5],
